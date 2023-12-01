@@ -1,0 +1,450 @@
+[
+    {
+        "_index": "packets-2023-02-11",
+        "_type": "doc",
+        "_score": null,
+        "_source": {
+            "layers": {
+                "frame": {
+                    "frame.section_number": "1",
+                    "frame.interface_id": "0",
+                    "frame.interface_id_tree": {
+                        "frame.interface_name": "wlp3s0mon"
+                    },
+                    "frame.encap_type": "23",
+                    "frame.time": "Feb 11, 2023 00:00:12.526916381 CST",
+                    "frame.offset_shift": "0.000000000",
+                    "frame.time_epoch": "1676095212.526916381",
+                    "frame.time_delta": "0.000005139",
+                    "frame.time_delta_displayed": "0.000005139",
+                    "frame.time_relative": "196.366684080",
+                    "frame.number": "81082",
+                    "frame.len": "146",
+                    "frame.cap_len": "146",
+                    "frame.marked": "0",
+                    "frame.ignored": "0",
+                    "frame.protocols": "radiotap:wlan_radio:wlan:llc:ip:tcp",
+                    "frame.coloring_rule.name": "TCP SYN/FIN",
+                    "frame.coloring_rule.string": "tcp.flags & 0x02 || tcp.flags.fin == 1"
+                },
+                "radiotap": {
+                    "radiotap.version": "0",
+                    "radiotap.pad": "0",
+                    "radiotap.length": "56",
+                    "radiotap.present": {
+                        "radiotap.present.word": [
+                            "0xa058402a",
+                            "0xa0000820",
+                            "0x00000820"
+                        ],
+                        "radiotap.present.word_tree": [
+                            {
+                                "radiotap.present.tsft": "0",
+                                "radiotap.present.flags": "1",
+                                "radiotap.present.rate": "0",
+                                "radiotap.present.channel": "1",
+                                "radiotap.present.fhss": "0",
+                                "radiotap.present.dbm_antsignal": "1",
+                                "radiotap.present.dbm_antnoise": "0",
+                                "radiotap.present.lock_quality": "0",
+                                "radiotap.present.tx_attenuation": "0",
+                                "radiotap.present.db_tx_attenuation": "0",
+                                "radiotap.present.dbm_tx_power": "0",
+                                "radiotap.present.antenna": "0",
+                                "radiotap.present.db_antsignal": "0",
+                                "radiotap.present.db_antnoise": "0",
+                                "radiotap.present.rxflags": "1",
+                                "radiotap.present.txflags": "0",
+                                "radiotap.present.data_retries": "0",
+                                "radiotap.present.xchannel": "0",
+                                "radiotap.present.mcs": "1",
+                                "radiotap.present.ampdu": "1",
+                                "radiotap.present.vht": "0",
+                                "radiotap.present.timestamp": "1",
+                                "radiotap.present.he": "0",
+                                "radiotap.present.he_mu": "0",
+                                "radiotap.present.0_length.psdu": "0",
+                                "radiotap.present.l_sig": "0",
+                                "radiotap.present.tlv": "0",
+                                "radiotap.present.rtap_ns": "1",
+                                "radiotap.present.vendor_ns": "0",
+                                "radiotap.present.ext": "1"
+                            },
+                            {
+                                "radiotap.present.tsft": "0",
+                                "radiotap.present.flags": "0",
+                                "radiotap.present.rate": "0",
+                                "radiotap.present.channel": "0",
+                                "radiotap.present.fhss": "0",
+                                "radiotap.present.dbm_antsignal": "1",
+                                "radiotap.present.dbm_antnoise": "0",
+                                "radiotap.present.lock_quality": "0",
+                                "radiotap.present.tx_attenuation": "0",
+                                "radiotap.present.db_tx_attenuation": "0",
+                                "radiotap.present.dbm_tx_power": "0",
+                                "radiotap.present.antenna": "1",
+                                "radiotap.present.db_antsignal": "0",
+                                "radiotap.present.db_antnoise": "0",
+                                "radiotap.present.rxflags": "0",
+                                "radiotap.present.txflags": "0",
+                                "radiotap.present.data_retries": "0",
+                                "radiotap.present.xchannel": "0",
+                                "radiotap.present.mcs": "0",
+                                "radiotap.present.ampdu": "0",
+                                "radiotap.present.vht": "0",
+                                "radiotap.present.timestamp": "0",
+                                "radiotap.present.he": "0",
+                                "radiotap.present.he_mu": "0",
+                                "radiotap.present.0_length.psdu": "0",
+                                "radiotap.present.l_sig": "0",
+                                "radiotap.present.tlv": "0",
+                                "radiotap.present.rtap_ns": "1",
+                                "radiotap.present.vendor_ns": "0",
+                                "radiotap.present.ext": "1"
+                            },
+                            {
+                                "radiotap.present.tsft": "0",
+                                "radiotap.present.flags": "0",
+                                "radiotap.present.rate": "0",
+                                "radiotap.present.channel": "0",
+                                "radiotap.present.fhss": "0",
+                                "radiotap.present.dbm_antsignal": "1",
+                                "radiotap.present.dbm_antnoise": "0",
+                                "radiotap.present.lock_quality": "0",
+                                "radiotap.present.tx_attenuation": "0",
+                                "radiotap.present.db_tx_attenuation": "0",
+                                "radiotap.present.dbm_tx_power": "0",
+                                "radiotap.present.antenna": "1",
+                                "radiotap.present.db_antsignal": "0",
+                                "radiotap.present.db_antnoise": "0",
+                                "radiotap.present.rxflags": "0",
+                                "radiotap.present.txflags": "0",
+                                "radiotap.present.data_retries": "0",
+                                "radiotap.present.xchannel": "0",
+                                "radiotap.present.mcs": "0",
+                                "radiotap.present.ampdu": "0",
+                                "radiotap.present.vht": "0",
+                                "radiotap.present.timestamp": "0",
+                                "radiotap.present.he": "0",
+                                "radiotap.present.he_mu": "0",
+                                "radiotap.present.0_length.psdu": "0",
+                                "radiotap.present.l_sig": "0",
+                                "radiotap.present.tlv": "0",
+                                "radiotap.present.rtap_ns": "0",
+                                "radiotap.present.vendor_ns": "0",
+                                "radiotap.present.ext": "0"
+                            }
+                        ]
+                    },
+                    "radiotap.flags": "0x10",
+                    "radiotap.flags_tree": {
+                        "radiotap.flags.cfp": "0",
+                        "radiotap.flags.preamble": "0",
+                        "radiotap.flags.wep": "0",
+                        "radiotap.flags.frag": "0",
+                        "radiotap.flags.fcs": "1",
+                        "radiotap.flags.datapad": "0",
+                        "radiotap.flags.badfcs": "0",
+                        "radiotap.flags.shortgi": "0"
+                    },
+                    "radiotap.channel.freq": "2462",
+                    "radiotap.channel.flags": "0x0480",
+                    "radiotap.channel.flags_tree": {
+                        "radiotap.channel.flags.700mhz": "0",
+                        "radiotap.channel.flags.800mhz": "0",
+                        "radiotap.channel.flags.900mhz": "0",
+                        "radiotap.channel.flags.turbo": "0",
+                        "radiotap.channel.flags.cck": "0",
+                        "radiotap.channel.flags.ofdm": "0",
+                        "radiotap.channel.flags.2ghz": "1",
+                        "radiotap.channel.flags.5ghz": "0",
+                        "radiotap.channel.flags.passive": "0",
+                        "radiotap.channel.flags.dynamic": "1",
+                        "radiotap.channel.flags.gfsk": "0",
+                        "radiotap.channel.flags.gsm": "0",
+                        "radiotap.channel.flags.sturbo": "0",
+                        "radiotap.channel.flags.half": "0",
+                        "radiotap.channel.flags.quarter": "0"
+                    },
+                    "radiotap.dbm_antsignal": [
+                        "-41",
+                        "-41",
+                        "-42"
+                    ],
+                    "radiotap.rxflags": "0x0000",
+                    "radiotap.rxflags_tree": {
+                        "radiotap.rxflags.badplcp": "0"
+                    },
+                    "radiotap.mcs": {
+                        "radiotap.mcs.known": "0x37",
+                        "radiotap.mcs.known_tree": {
+                            "radiotap.mcs.have_bw": "1",
+                            "radiotap.mcs.have_index": "1",
+                            "radiotap.mcs.have_gi": "1",
+                            "radiotap.mcs.have_format": "0",
+                            "radiotap.mcs.have_fec": "1",
+                            "radiotap.mcs.have_stbc": "1",
+                            "radiotap.mcs.have_ness": "0"
+                        },
+                        "radiotap.mcs.bw": "0",
+                        "radiotap.mcs.gi": "1",
+                        "radiotap.mcs.fec": "0",
+                        "radiotap.mcs.stbc": "0",
+                        "radiotap.mcs.index": "15"
+                    },
+                    "radiotap.datarate": "144.444",
+                    "radiotap.ampdu": {
+                        "radiotap.ampdu.reference": "105236",
+                        "radiotap.ampdu.flags": "0x0000",
+                        "radiotap.ampdu.flags_tree": {
+                            "radiotap.ampdu.flags.report_zerolen": "0",
+                            "radiotap.ampdu.flags.is_zerolen": "0",
+                            "radiotap.ampdu.flags.lastknown": "0",
+                            "radiotap.ampdu.flags.last": "0",
+                            "radiotap.ampdu.flags.delim_crc_error": "0",
+                            "radiotap.ampdu.flags.eof": "0",
+                            "radiotap.ampdu.flags.eof_known": "0"
+                        }
+                    },
+                    "radiotap.timestamp": {
+                        "radiotap.timestamp.ts": "217048454",
+                        "radiotap.timestamp.accuracy": "22",
+                        "radiotap.timestamp.unit": "1",
+                        "radiotap.timestamp.samplingpos": "1",
+                        "radiotap.timestamp.flags.32bit": "1",
+                        "radiotap.timestamp.flags.accuracy": "1"
+                    },
+                    "radiotap.antenna": [
+                        "0",
+                        "1"
+                    ]
+                },
+                "wlan_radio": {
+                    "wlan_radio.phy": "7",
+                    "wlan_radio.11n.mcs_index": "15",
+                    "wlan_radio.11n.bandwidth": "0",
+                    "wlan_radio.11n.short_gi": "1",
+                    "wlan_radio.11n.fec": "0",
+                    "wlan_radio.11n.stbc_streams": "0",
+                    "wlan_radio.data_rate": "144.444",
+                    "wlan_radio.channel": "11",
+                    "wlan_radio.frequency": "2462",
+                    "wlan_radio.signal_dbm": "-42",
+                    "wlan_radio.last_part_of_an_ampdu": "0",
+                    "wlan_radio.a_mpdu_delim_crc_error": "0",
+                    "wlan_radio.a_mpdu_aggregate_id": "105236",
+                    "wlan_radio.duration": "47",
+                    "wlan_radio.duration_tree": {
+                        "_ws.expert": [
+                            {
+                                "wlan_radio.assumed.non_greenfield": "",
+                                "_ws.expert.message": "No plcp type information was available, assuming non greenfield.",
+                                "_ws.expert.severity": "6291456",
+                                "_ws.expert.group": "218103808"
+                            },
+                            {
+                                "wlan_radio.assumed.no_extension_streams": "",
+                                "_ws.expert.message": "No extension stream information was available, assuming no extension streams.",
+                                "_ws.expert.severity": "6291456",
+                                "_ws.expert.group": "218103808"
+                            }
+                        ],
+                        "wlan_radio.preamble": "40"
+                    }
+                },
+                "wlan": {
+                    "wlan.fc.type_subtype": "0x0028",
+                    "wlan.fc": "0x8802",
+                    "wlan.fc_tree": {
+                        "wlan.fc.version": "0",
+                        "wlan.fc.type": "2",
+                        "wlan.fc.subtype": "8",
+                        "wlan.flags": "0x02",
+                        "wlan.flags_tree": {
+                            "wlan.fc.ds": "0x02",
+                            "wlan.fc.tods": "0",
+                            "wlan.fc.fromds": "1",
+                            "wlan.fc.frag": "0",
+                            "wlan.fc.retry": "0",
+                            "wlan.fc.pwrmgt": "0",
+                            "wlan.fc.moredata": "0",
+                            "wlan.fc.protected": "0",
+                            "wlan.fc.order": "0"
+                        }
+                    },
+                    "wlan.duration": "48",
+                    "wlan.ra": "38:f9:d3:2f:4e:a5",
+                    "wlan.ra_resolved": "Apple_2f:4e:a5",
+                    "wlan.addr": [
+                        "38:f9:d3:2f:4e:a5",
+                        "b0:be:76:b2:6a:9e",
+                        "b0:be:76:b2:6a:9e"
+                    ],
+                    "wlan.addr_resolved": [
+                        "Apple_2f:4e:a5",
+                        "Tp-LinkT_b2:6a:9e",
+                        "Tp-LinkT_b2:6a:9e"
+                    ],
+                    "wlan.ta": "b0:be:76:b2:6a:9e",
+                    "wlan.ta_resolved": "Tp-LinkT_b2:6a:9e",
+                    "wlan.da": "38:f9:d3:2f:4e:a5",
+                    "wlan.da_resolved": "Apple_2f:4e:a5",
+                    "wlan.sa": "b0:be:76:b2:6a:9e",
+                    "wlan.sa_resolved": "Tp-LinkT_b2:6a:9e",
+                    "wlan.bssid": "b0:be:76:b2:6a:9e",
+                    "wlan.bssid_resolved": "Tp-LinkT_b2:6a:9e",
+                    "wlan.staa": "38:f9:d3:2f:4e:a5",
+                    "wlan.staa_resolved": "Apple_2f:4e:a5",
+                    "wlan.frag": "0",
+                    "wlan.seq": "3213",
+                    "wlan.fcs": "0xb721ae85",
+                    "wlan.fcs.status": "2",
+                    "wlan.qos": "0x0000",
+                    "wlan.qos_tree": {
+                        "wlan.qos.tid": "0",
+                        "wlan.qos.priority": "0",
+                        "wlan.qos.eosp": "0",
+                        "wlan.qos.ack": "0x0000",
+                        "wlan.qos.amsdupresent": "0",
+                        "wlan.qos.ps_buf_state": "0x0000",
+                        "wlan.qos.ps_buf_state_tree": {
+                            "wlan.qos.buf_state_indicated": "0"
+                        }
+                    }
+                },
+                "llc": {
+                    "llc.dsap": "0xaa",
+                    "llc.dsap_tree": {
+                        "llc.dsap.sap": "85",
+                        "llc.dsap.ig": "0"
+                    },
+                    "llc.ssap": "0xaa",
+                    "llc.ssap_tree": {
+                        "llc.ssap.sap": "85",
+                        "llc.ssap.cr": "0"
+                    },
+                    "llc.control": "0x0003",
+                    "llc.control_tree": {
+                        "llc.control.u_modifier_cmd": "0x00",
+                        "llc.control.ftype": "0x03"
+                    },
+                    "llc.oui": "0",
+                    "llc.type": "0x0800"
+                },
+                "ip": {
+                    "ip.version": "4",
+                    "ip.hdr_len": "20",
+                    "ip.dsfield": "0x00",
+                    "ip.dsfield_tree": {
+                        "ip.dsfield.dscp": "0",
+                        "ip.dsfield.ecn": "0"
+                    },
+                    "ip.len": "52",
+                    "ip.id": "0x285c",
+                    "ip.flags": "0x02",
+                    "ip.flags_tree": {
+                        "ip.flags.rb": "0",
+                        "ip.flags.df": "1",
+                        "ip.flags.mf": "0"
+                    },
+                    "ip.frag_offset": "0",
+                    "ip.ttl": "62",
+                    "ip.proto": "6",
+                    "ip.checksum": "0xc6e5",
+                    "ip.checksum.status": "2",
+                    "ip.src": "128.135.11.239",
+                    "ip.addr": [
+                        "128.135.11.239",
+                        "192.168.0.100"
+                    ],
+                    "ip.src_host": "128.135.11.239",
+                    "ip.host": [
+                        "128.135.11.239",
+                        "192.168.0.100"
+                    ],
+                    "ip.dst": "192.168.0.100",
+                    "ip.dst_host": "192.168.0.100"
+                },
+                "tcp": {
+                    "tcp.srcport": "443",
+                    "tcp.dstport": "49800",
+                    "tcp.port": [
+                        "443",
+                        "49800"
+                    ],
+                    "tcp.stream": "126",
+                    "tcp.completeness": "31",
+                    "tcp.len": "0",
+                    "tcp.seq": "92155",
+                    "tcp.seq_raw": "1985103220",
+                    "tcp.nxtseq": "92156",
+                    "tcp.ack": "2309",
+                    "tcp.ack_raw": "734346754",
+                    "tcp.hdr_len": "32",
+                    "tcp.flags": "0x0011",
+                    "tcp.flags_tree": {
+                        "tcp.flags.res": "0",
+                        "tcp.flags.ae": "0",
+                        "tcp.flags.cwr": "0",
+                        "tcp.flags.ece": "0",
+                        "tcp.flags.urg": "0",
+                        "tcp.flags.ack": "1",
+                        "tcp.flags.push": "0",
+                        "tcp.flags.reset": "0",
+                        "tcp.flags.syn": "0",
+                        "tcp.flags.fin": "1",
+                        "tcp.flags.fin_tree": {
+                            "_ws.expert": {
+                                "tcp.connection.fin": "",
+                                "_ws.expert.message": "Connection finish (FIN)",
+                                "_ws.expert.severity": "2097152",
+                                "_ws.expert.group": "33554432"
+                            }
+                        },
+                        "tcp.flags.str": "\u00b7\u00b7\u00b7\u00b7\u00b7\u00b7\u00b7A\u00b7\u00b7\u00b7F",
+                        "tcp.flags.str_tree": {
+                            "_ws.expert": {
+                                "tcp.connection.fin_active": "",
+                                "_ws.expert.message": "This frame initiates the connection closing",
+                                "_ws.expert.severity": "4194304",
+                                "_ws.expert.group": "33554432"
+                            }
+                        }
+                    },
+                    "tcp.window_size_value": "501",
+                    "tcp.window_size": "64128",
+                    "tcp.window_size_scalefactor": "128",
+                    "tcp.checksum": "0xb23f",
+                    "tcp.checksum.status": "2",
+                    "tcp.urgent_pointer": "0",
+                    "tcp.options": "01:01:08:0a:04:c9:ce:11:9d:95:1a:c3",
+                    "tcp.options_tree": {
+                        "tcp.options.nop": [
+                            "01",
+                            "01"
+                        ],
+                        "tcp.options.nop_tree": [
+                            {
+                                "tcp.option_kind": "1"
+                            },
+                            {
+                                "tcp.option_kind": "1"
+                            }
+                        ],
+                        "tcp.options.timestamp": "08:0a:04:c9:ce:11:9d:95:1a:c3",
+                        "tcp.options.timestamp_tree": {
+                            "tcp.option_kind": "8",
+                            "tcp.option_len": "10",
+                            "tcp.options.timestamp.tsval": "80334353",
+                            "tcp.options.timestamp.tsecr": "2643794627"
+                        }
+                    },
+                    "Timestamps": {
+                        "tcp.time_relative": "5.118000415",
+                        "tcp.time_delta": "0.000005139"
+                    }
+                }
+            }
+        }
+    }
+]

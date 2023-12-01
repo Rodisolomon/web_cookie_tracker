@@ -1,0 +1,655 @@
+[
+    {
+        "_index": "packets-2023-02-10",
+        "_type": "doc",
+        "_score": null,
+        "_source": {
+        "layers": {
+            "frame": {
+            "frame.section_number": "1",
+            "frame.interface_id": "0",
+            "frame.interface_id_tree": {
+                "frame.interface_name": "wlp3s0mon"
+            },
+            "frame.encap_type": "23",
+            "frame.time": "Feb 10, 2023 23:57:58.817362131 CST",
+            "frame.offset_shift": "0.000000000",
+            "frame.time_epoch": "1676095078.817362131",
+            "frame.time_delta": "0.000009892",
+            "frame.time_delta_displayed": "0.000742607",
+            "frame.time_relative": "62.657129830",
+            "frame.number": "37810",
+            "frame.len": "865",
+            "frame.cap_len": "865",
+            "frame.marked": "0",
+            "frame.ignored": "0",
+            "frame.protocols": "radiotap:wlan_radio:wlan:llc:ip:tcp:tls",
+            "frame.coloring_rule.name": "TCP",
+            "frame.coloring_rule.string": "tcp"
+            },
+            "radiotap": {
+            "radiotap.version": "0",
+            "radiotap.pad": "0",
+            "radiotap.length": "56",
+            "radiotap.present": {
+                "radiotap.present.word": "0xa058402a",
+                "radiotap.present.word_tree": {
+                "radiotap.present.tsft": "0",
+                "radiotap.present.flags": "1",
+                "radiotap.present.rate": "0",
+                "radiotap.present.channel": "1",
+                "radiotap.present.fhss": "0",
+                "radiotap.present.dbm_antsignal": "1",
+                "radiotap.present.dbm_antnoise": "0",
+                "radiotap.present.lock_quality": "0",
+                "radiotap.present.tx_attenuation": "0",
+                "radiotap.present.db_tx_attenuation": "0",
+                "radiotap.present.dbm_tx_power": "0",
+                "radiotap.present.antenna": "0",
+                "radiotap.present.db_antsignal": "0",
+                "radiotap.present.db_antnoise": "0",
+                "radiotap.present.rxflags": "1",
+                "radiotap.present.txflags": "0",
+                "radiotap.present.data_retries": "0",
+                "radiotap.present.xchannel": "0",
+                "radiotap.present.mcs": "1",
+                "radiotap.present.ampdu": "1",
+                "radiotap.present.vht": "0",
+                "radiotap.present.timestamp": "1",
+                "radiotap.present.he": "0",
+                "radiotap.present.he_mu": "0",
+                "radiotap.present.0_length.psdu": "0",
+                "radiotap.present.l_sig": "0",
+                "radiotap.present.tlv": "0",
+                "radiotap.present.rtap_ns": "1",
+                "radiotap.present.vendor_ns": "0",
+                "radiotap.present.ext": "1"
+                },
+                "radiotap.present.word": "0xa0000820",
+                "radiotap.present.word_tree": {
+                "radiotap.present.tsft": "0",
+                "radiotap.present.flags": "0",
+                "radiotap.present.rate": "0",
+                "radiotap.present.channel": "0",
+                "radiotap.present.fhss": "0",
+                "radiotap.present.dbm_antsignal": "1",
+                "radiotap.present.dbm_antnoise": "0",
+                "radiotap.present.lock_quality": "0",
+                "radiotap.present.tx_attenuation": "0",
+                "radiotap.present.db_tx_attenuation": "0",
+                "radiotap.present.dbm_tx_power": "0",
+                "radiotap.present.antenna": "1",
+                "radiotap.present.db_antsignal": "0",
+                "radiotap.present.db_antnoise": "0",
+                "radiotap.present.rxflags": "0",
+                "radiotap.present.txflags": "0",
+                "radiotap.present.data_retries": "0",
+                "radiotap.present.xchannel": "0",
+                "radiotap.present.mcs": "0",
+                "radiotap.present.ampdu": "0",
+                "radiotap.present.vht": "0",
+                "radiotap.present.timestamp": "0",
+                "radiotap.present.he": "0",
+                "radiotap.present.he_mu": "0",
+                "radiotap.present.0_length.psdu": "0",
+                "radiotap.present.l_sig": "0",
+                "radiotap.present.tlv": "0",
+                "radiotap.present.rtap_ns": "1",
+                "radiotap.present.vendor_ns": "0",
+                "radiotap.present.ext": "1"
+                },
+                "radiotap.present.word": "0x00000820",
+                "radiotap.present.word_tree": {
+                "radiotap.present.tsft": "0",
+                "radiotap.present.flags": "0",
+                "radiotap.present.rate": "0",
+                "radiotap.present.channel": "0",
+                "radiotap.present.fhss": "0",
+                "radiotap.present.dbm_antsignal": "1",
+                "radiotap.present.dbm_antnoise": "0",
+                "radiotap.present.lock_quality": "0",
+                "radiotap.present.tx_attenuation": "0",
+                "radiotap.present.db_tx_attenuation": "0",
+                "radiotap.present.dbm_tx_power": "0",
+                "radiotap.present.antenna": "1",
+                "radiotap.present.db_antsignal": "0",
+                "radiotap.present.db_antnoise": "0",
+                "radiotap.present.rxflags": "0",
+                "radiotap.present.txflags": "0",
+                "radiotap.present.data_retries": "0",
+                "radiotap.present.xchannel": "0",
+                "radiotap.present.mcs": "0",
+                "radiotap.present.ampdu": "0",
+                "radiotap.present.vht": "0",
+                "radiotap.present.timestamp": "0",
+                "radiotap.present.he": "0",
+                "radiotap.present.he_mu": "0",
+                "radiotap.present.0_length.psdu": "0",
+                "radiotap.present.l_sig": "0",
+                "radiotap.present.tlv": "0",
+                "radiotap.present.rtap_ns": "0",
+                "radiotap.present.vendor_ns": "0",
+                "radiotap.present.ext": "0"
+                }
+            },
+            "radiotap.flags": "0x10",
+            "radiotap.flags_tree": {
+                "radiotap.flags.cfp": "0",
+                "radiotap.flags.preamble": "0",
+                "radiotap.flags.wep": "0",
+                "radiotap.flags.frag": "0",
+                "radiotap.flags.fcs": "1",
+                "radiotap.flags.datapad": "0",
+                "radiotap.flags.badfcs": "0",
+                "radiotap.flags.shortgi": "0"
+            },
+            "radiotap.channel.freq": "2462",
+            "radiotap.channel.flags": "0x0480",
+            "radiotap.channel.flags_tree": {
+                "radiotap.channel.flags.700mhz": "0",
+                "radiotap.channel.flags.800mhz": "0",
+                "radiotap.channel.flags.900mhz": "0",
+                "radiotap.channel.flags.turbo": "0",
+                "radiotap.channel.flags.cck": "0",
+                "radiotap.channel.flags.ofdm": "0",
+                "radiotap.channel.flags.2ghz": "1",
+                "radiotap.channel.flags.5ghz": "0",
+                "radiotap.channel.flags.passive": "0",
+                "radiotap.channel.flags.dynamic": "1",
+                "radiotap.channel.flags.gfsk": "0",
+                "radiotap.channel.flags.gsm": "0",
+                "radiotap.channel.flags.sturbo": "0",
+                "radiotap.channel.flags.half": "0",
+                "radiotap.channel.flags.quarter": "0"
+            },
+            "radiotap.dbm_antsignal": "-42",
+            "radiotap.rxflags": "0x0000",
+            "radiotap.rxflags_tree": {
+                "radiotap.rxflags.badplcp": "0"
+            },
+            "radiotap.mcs": {
+                "radiotap.mcs.known": "0x37",
+                "radiotap.mcs.known_tree": {
+                "radiotap.mcs.have_bw": "1",
+                "radiotap.mcs.have_index": "1",
+                "radiotap.mcs.have_gi": "1",
+                "radiotap.mcs.have_format": "0",
+                "radiotap.mcs.have_fec": "1",
+                "radiotap.mcs.have_stbc": "1",
+                "radiotap.mcs.have_ness": "0"
+                },
+                "radiotap.mcs.bw": "0",
+                "radiotap.mcs.gi": "1",
+                "radiotap.mcs.fec": "0",
+                "radiotap.mcs.stbc": "0",
+                "radiotap.mcs.index": "15"
+            },
+            "radiotap.datarate": "144.444",
+            "radiotap.ampdu": {
+                "radiotap.ampdu.reference": "66866",
+                "radiotap.ampdu.flags": "0x0000",
+                "radiotap.ampdu.flags_tree": {
+                "radiotap.ampdu.flags.report_zerolen": "0",
+                "radiotap.ampdu.flags.is_zerolen": "0",
+                "radiotap.ampdu.flags.lastknown": "0",
+                "radiotap.ampdu.flags.last": "0",
+                "radiotap.ampdu.flags.delim_crc_error": "0",
+                "radiotap.ampdu.flags.eof": "0",
+                "radiotap.ampdu.flags.eof_known": "0"
+                }
+            },
+            "radiotap.timestamp": {
+                "radiotap.timestamp.ts": "83340036",
+                "radiotap.timestamp.accuracy": "22",
+                "radiotap.timestamp.unit": "1",
+                "radiotap.timestamp.samplingpos": "1",
+                "radiotap.timestamp.flags.32bit": "1",
+                "radiotap.timestamp.flags.accuracy": "1"
+            },
+            "radiotap.dbm_antsignal": "-43",
+            "radiotap.antenna": "0",
+            "radiotap.dbm_antsignal": "-42",
+            "radiotap.antenna": "1"
+            },
+            "wlan_radio": {
+            "wlan_radio.phy": "7",
+            "wlan_radio.11n.mcs_index": "15",
+            "wlan_radio.11n.bandwidth": "0",
+            "wlan_radio.11n.short_gi": "1",
+            "wlan_radio.11n.fec": "0",
+            "wlan_radio.11n.stbc_streams": "0",
+            "wlan_radio.data_rate": "144.444",
+            "wlan_radio.channel": "11",
+            "wlan_radio.frequency": "2462",
+            "wlan_radio.signal_dbm": "-42",
+            "wlan_radio.last_part_of_an_ampdu": "0",
+            "wlan_radio.a_mpdu_delim_crc_error": "0",
+            "wlan_radio.a_mpdu_aggregate_id": "66866",
+            "wlan_radio.duration": "87",
+            "wlan_radio.duration_tree": {
+                "_ws.expert": {
+                "wlan_radio.assumed.non_greenfield": "",
+                "_ws.expert.message": "No plcp type information was available, assuming non greenfield.",
+                "_ws.expert.severity": "6291456",
+                "_ws.expert.group": "218103808"
+                },
+                "_ws.expert": {
+                "wlan_radio.assumed.no_extension_streams": "",
+                "_ws.expert.message": "No extension stream information was available, assuming no extension streams.",
+                "_ws.expert.severity": "6291456",
+                "_ws.expert.group": "218103808"
+                },
+                "wlan_radio.preamble": "40"
+            }
+            },
+            "wlan": {
+            "wlan.fc.type_subtype": "0x0028",
+            "wlan.fc": "0x8801",
+            "wlan.fc_tree": {
+                "wlan.fc.version": "0",
+                "wlan.fc.type": "2",
+                "wlan.fc.subtype": "8",
+                "wlan.flags": "0x01",
+                "wlan.flags_tree": {
+                "wlan.fc.ds": "0x01",
+                "wlan.fc.tods": "1",
+                "wlan.fc.fromds": "0",
+                "wlan.fc.frag": "0",
+                "wlan.fc.retry": "0",
+                "wlan.fc.pwrmgt": "0",
+                "wlan.fc.moredata": "0",
+                "wlan.fc.protected": "0",
+                "wlan.fc.order": "0"
+                }
+            },
+            "wlan.duration": "48",
+            "wlan.ra": "b0:be:76:b2:6a:9e",
+            "wlan.ra_resolved": "Tp-LinkT_b2:6a:9e",
+            "wlan.addr": "b0:be:76:b2:6a:9e",
+            "wlan.addr_resolved": "Tp-LinkT_b2:6a:9e",
+            "wlan.ta": "38:f9:d3:2f:4e:a5",
+            "wlan.ta_resolved": "Apple_2f:4e:a5",
+            "wlan.addr": "38:f9:d3:2f:4e:a5",
+            "wlan.addr_resolved": "Apple_2f:4e:a5",
+            "wlan.da": "b0:be:76:b2:6a:9e",
+            "wlan.da_resolved": "Tp-LinkT_b2:6a:9e",
+            "wlan.sa": "38:f9:d3:2f:4e:a5",
+            "wlan.sa_resolved": "Apple_2f:4e:a5",
+            "wlan.bssid": "b0:be:76:b2:6a:9e",
+            "wlan.bssid_resolved": "Tp-LinkT_b2:6a:9e",
+            "wlan.staa": "38:f9:d3:2f:4e:a5",
+            "wlan.staa_resolved": "Apple_2f:4e:a5",
+            "wlan.frag": "0",
+            "wlan.seq": "2640",
+            "wlan.addr": "b0:be:76:b2:6a:9e",
+            "wlan.addr_resolved": "Tp-LinkT_b2:6a:9e",
+            "wlan.fcs": "0x47aa48fe",
+            "wlan.fcs.status": "2",
+            "wlan.qos": "0x0000",
+            "wlan.qos_tree": {
+                "wlan.qos.tid": "0",
+                "wlan.qos.priority": "0",
+                "wlan.qos.bit4": "0",
+                "wlan.qos.ack": "0x0000",
+                "wlan.qos.amsdupresent": "0",
+                "wlan.qos.txop_dur_req": "0"
+            }
+            },
+            "llc": {
+            "llc.dsap": "0xaa",
+            "llc.dsap_tree": {
+                "llc.dsap.sap": "85",
+                "llc.dsap.ig": "0"
+            },
+            "llc.ssap": "0xaa",
+            "llc.ssap_tree": {
+                "llc.ssap.sap": "85",
+                "llc.ssap.cr": "0"
+            },
+            "llc.control": "0x0003",
+            "llc.control_tree": {
+                "llc.control.u_modifier_cmd": "0x00",
+                "llc.control.ftype": "0x03"
+            },
+            "llc.oui": "0",
+            "llc.type": "0x0800"
+            },
+            "ip": {
+            "ip.version": "4",
+            "ip.hdr_len": "20",
+            "ip.dsfield": "0x02",
+            "ip.dsfield_tree": {
+                "ip.dsfield.dscp": "0",
+                "ip.dsfield.ecn": "2"
+            },
+            "ip.len": "771",
+            "ip.id": "0x0000",
+            "ip.flags": "0x02",
+            "ip.flags_tree": {
+                "ip.flags.rb": "0",
+                "ip.flags.df": "1",
+                "ip.flags.mf": "0"
+            },
+            "ip.frag_offset": "0",
+            "ip.ttl": "64",
+            "ip.proto": "6",
+            "ip.checksum": "0xea70",
+            "ip.checksum.status": "2",
+            "ip.src": "192.168.0.100",
+            "ip.addr": "192.168.0.100",
+            "ip.src_host": "192.168.0.100",
+            "ip.host": "192.168.0.100",
+            "ip.dst": "128.135.11.239",
+            "ip.addr": "128.135.11.239",
+            "ip.dst_host": "128.135.11.239",
+            "ip.host": "128.135.11.239"
+            },
+            "tcp": {
+            "tcp.srcport": "49742",
+            "tcp.dstport": "443",
+            "tcp.port": "49742",
+            "tcp.port": "443",
+            "tcp.stream": "64",
+            "tcp.completeness": "31",
+            "tcp.len": "719",
+            "tcp.seq": "1",
+            "tcp.seq_raw": "2908344435",
+            "tcp.nxtseq": "720",
+            "tcp.ack": "1",
+            "tcp.ack_raw": "3656997584",
+            "tcp.hdr_len": "32",
+            "tcp.flags": "0x0018",
+            "tcp.flags_tree": {
+                "tcp.flags.res": "0",
+                "tcp.flags.ae": "0",
+                "tcp.flags.cwr": "0",
+                "tcp.flags.ece": "0",
+                "tcp.flags.urg": "0",
+                "tcp.flags.ack": "1",
+                "tcp.flags.push": "1",
+                "tcp.flags.reset": "0",
+                "tcp.flags.syn": "0",
+                "tcp.flags.fin": "0",
+                "tcp.flags.str": "·······AP···"
+            },
+            "tcp.window_size_value": "2058",
+            "tcp.window_size": "131712",
+            "tcp.window_size_scalefactor": "64",
+            "tcp.checksum": "0xc3bf",
+            "tcp.checksum.status": "2",
+            "tcp.urgent_pointer": "0",
+            "tcp.options": "01:01:08:0a:bf:64:02:bb:04:c7:c3:c2",
+            "tcp.options_tree": {
+                "tcp.options.nop": "01",
+                "tcp.options.nop_tree": {
+                "tcp.option_kind": "1"
+                },
+                "tcp.options.nop": "01",
+                "tcp.options.nop_tree": {
+                "tcp.option_kind": "1"
+                },
+                "tcp.options.timestamp": "08:0a:bf:64:02:bb:04:c7:c3:c2",
+                "tcp.options.timestamp_tree": {
+                "tcp.option_kind": "8",
+                "tcp.option_len": "10",
+                "tcp.options.timestamp.tsval": "3211002555",
+                "tcp.options.timestamp.tsecr": "80200642"
+                }
+            },
+            "Timestamps": {
+                "tcp.time_relative": "0.003759629",
+                "tcp.time_delta": "0.000742607"
+            },
+            "tcp.analysis": {
+                "tcp.analysis.acks_frame": "37806",
+                "tcp.analysis.ack_rtt": "0.000742607",
+                "tcp.analysis.initial_rtt": "0.002432567",
+                "tcp.analysis.bytes_in_flight": "719",
+                "tcp.analysis.push_bytes_sent": "719"
+            },
+            "tcp.payload": "16:03:01:02:ca:01:00:02:c6:03:03:8d:f6:34:b4:26:59:86:c0:1a:94:cf:a1:18:01:e4:b9:1d:83:c6:3a:3f:8d:27:e1:1a:3b:57:fc:41:52:5e:8c:20:e7:dd:11:c5:eb:44:ca:8a:a4:38:07:a8:c0:c1:a5:5e:7b:fe:c4:fe:3d:ca:f1:d2:ec:27:7e:7a:bb:0d:6b:f7:00:22:13:01:13:03:13:02:c0:2b:c0:2f:cc:a9:cc:a8:c0:2c:c0:30:c0:0a:c0:09:c0:13:c0:14:00:9c:00:9d:00:2f:00:35:01:00:02:5b:00:00:00:1e:00:1c:00:00:19:63:6f:6d:70:75:74:65:72:73:65:63:75:72:69:74:79:63:6c:61:73:73:2e:63:6f:6d:00:17:00:00:ff:01:00:01:00:00:0a:00:0e:00:0c:00:1d:00:17:00:18:00:19:01:00:01:01:00:0b:00:02:01:00:00:10:00:0e:00:0c:02:68:32:08:68:74:74:70:2f:31:2e:31:00:05:00:05:01:00:00:00:00:00:22:00:0a:00:08:04:03:05:03:06:03:02:03:00:33:00:6b:00:69:00:1d:00:20:c2:2a:9b:16:06:e1:ac:8d:4d:7c:e1:2c:6b:9c:f1:25:2d:57:7e:98:0a:90:85:ac:59:97:4d:35:b3:c7:67:2a:00:17:00:41:04:7a:ba:75:fa:1c:81:9a:0f:37:fc:0c:92:f4:16:f6:d3:7b:0b:1b:ab:84:8e:66:1d:7a:8c:e9:ce:e0:64:a2:e4:d2:00:69:8c:04:61:da:82:9f:16:89:6e:a7:cd:66:18:57:d3:56:78:61:8e:18:ef:76:38:aa:7b:9f:6a:b6:13:00:2b:00:05:04:03:04:03:03:00:0d:00:18:00:16:04:03:05:03:06:03:08:04:08:05:08:06:04:01:05:01:06:01:02:03:02:01:00:2d:00:02:01:01:00:1c:00:02:40:01:00:29:01:4b:01:16:01:10:59:d0:e4:d7:3d:ea:4f:34:22:a7:c8:83:6f:7e:15:cd:bf:dd:82:ae:b4:8d:eb:83:31:7d:c9:8f:88:22:55:b8:62:74:72:20:c0:2e:70:66:4c:1e:21:fa:1f:e7:37:fd:b7:5a:79:41:fc:bd:ad:7c:ad:87:8b:9c:ec:b4:b2:5f:ec:83:80:af:35:75:35:98:8a:14:03:70:98:76:ac:ac:f9:cc:69:07:e4:a7:d3:54:8a:16:72:2e:4f:75:92:58:08:94:58:19:e4:e9:bc:17:f4:5e:09:03:8a:42:35:aa:e0:93:c6:2b:8a:49:56:fe:f9:0b:24:ed:95:f9:f2:6e:c7:f7:b3:94:0b:fc:43:c2:23:96:ae:77:a5:5f:6b:d0:35:1f:57:97:1b:11:d6:ee:2d:cd:81:d6:54:32:d0:20:8e:61:c4:b6:60:6c:bb:38:4b:65:dc:48:bb:f2:4f:d3:4e:a2:a3:37:96:88:e4:92:f0:24:6b:3c:7e:7e:60:ee:ab:f2:a7:c7:64:6f:12:ba:2a:cd:02:cc:16:a8:68:e4:e9:03:22:38:bc:71:7b:bb:6c:cc:99:40:c5:82:8e:a5:7c:1a:5c:03:76:71:be:36:35:60:12:9e:b0:a0:c3:cc:3b:a2:7b:b0:c1:41:57:fc:0f:2f:e2:67:9f:65:6e:53:3b:d6:a4:a1:a8:ed:e7:29:a1:25:fc:ee:59:f0:b0:87:a2:47:46:f3:00:31:30:3e:12:a1:34:30:7c:a2:3d:2c:88:61:fc:e3:c7:d0:9b:d3:27:41:b7:3b:71:6d:31:3e:4e:db:01:97:d2:50:11:b6:ff:de:e9:86:2a:cf:55:c8:da:67:65:26:ec:24:11"
+            },
+            "tls": {
+            "tls.record": {
+                "tls.record.content_type": "22",
+                "tls.record.version": "0x0301",
+                "tls.record.length": "714",
+                "tls.handshake": {
+                "tls.handshake.type": "1",
+                "tls.handshake.length": "710",
+                "tls.handshake.version": "0x0303",
+                "tls.handshake.random": "8d:f6:34:b4:26:59:86:c0:1a:94:cf:a1:18:01:e4:b9:1d:83:c6:3a:3f:8d:27:e1:1a:3b:57:fc:41:52:5e:8c",
+                "tls.handshake.session_id_length": "32",
+                "tls.handshake.session_id": "e7:dd:11:c5:eb:44:ca:8a:a4:38:07:a8:c0:c1:a5:5e:7b:fe:c4:fe:3d:ca:f1:d2:ec:27:7e:7a:bb:0d:6b:f7",
+                "tls.handshake.cipher_suites_length": "34",
+                "tls.handshake.ciphersuites": {
+                    "tls.handshake.ciphersuite": "0x1301",
+                    "tls.handshake.ciphersuite": "0x1303",
+                    "tls.handshake.ciphersuite": "0x1302",
+                    "tls.handshake.ciphersuite": "0xc02b",
+                    "tls.handshake.ciphersuite": "0xc02f",
+                    "tls.handshake.ciphersuite": "0xcca9",
+                    "tls.handshake.ciphersuite": "0xcca8",
+                    "tls.handshake.ciphersuite": "0xc02c",
+                    "tls.handshake.ciphersuite": "0xc030",
+                    "tls.handshake.ciphersuite": "0xc00a",
+                    "tls.handshake.ciphersuite": "0xc009",
+                    "tls.handshake.ciphersuite": "0xc013",
+                    "tls.handshake.ciphersuite": "0xc014",
+                    "tls.handshake.ciphersuite": "0x009c",
+                    "tls.handshake.ciphersuite": "0x009d",
+                    "tls.handshake.ciphersuite": "0x002f",
+                    "tls.handshake.ciphersuite": "0x0035"
+                },
+                "tls.handshake.comp_methods_length": "1",
+                "tls.handshake.comp_methods": {
+                    "tls.handshake.comp_method": "0"
+                },
+                "tls.handshake.extensions_length": "603",
+                "Extension: server_name (len=30)": {
+                    "tls.handshake.extension.type": "0",
+                    "tls.handshake.extension.len": "30",
+                    "Server Name Indication extension": {
+                    "tls.handshake.extensions_server_name_list_len": "28",
+                    "tls.handshake.extensions_server_name_type": "0",
+                    "tls.handshake.extensions_server_name_len": "25",
+                    "tls.handshake.extensions_server_name": "computersecurityclass.com"
+                    }
+                },
+                "Extension: extended_master_secret (len=0)": {
+                    "tls.handshake.extension.type": "23",
+                    "tls.handshake.extension.len": "0"
+                },
+                "Extension: renegotiation_info (len=1)": {
+                    "tls.handshake.extension.type": "65281",
+                    "tls.handshake.extension.len": "1",
+                    "Renegotiation Info extension": {
+                    "tls.handshake.extensions_reneg_info_len": "0"
+                    }
+                },
+                "Extension: supported_groups (len=14)": {
+                    "tls.handshake.extension.type": "10",
+                    "tls.handshake.extension.len": "14",
+                    "tls.handshake.extensions_supported_groups_length": "12",
+                    "tls.handshake.extensions_supported_groups": {
+                    "tls.handshake.extensions_supported_group": "0x001d",
+                    "tls.handshake.extensions_supported_group": "0x0017",
+                    "tls.handshake.extensions_supported_group": "0x0018",
+                    "tls.handshake.extensions_supported_group": "0x0019",
+                    "tls.handshake.extensions_supported_group": "0x0100",
+                    "tls.handshake.extensions_supported_group": "0x0101"
+                    }
+                },
+                "Extension: ec_point_formats (len=2)": {
+                    "tls.handshake.extension.type": "11",
+                    "tls.handshake.extension.len": "2",
+                    "tls.handshake.extensions_ec_point_formats_length": "1",
+                    "tls.handshake.extensions_ec_point_formats": {
+                    "tls.handshake.extensions_ec_point_format": "0"
+                    }
+                },
+                "Extension: application_layer_protocol_negotiation (len=14)": {
+                    "tls.handshake.extension.type": "16",
+                    "tls.handshake.extension.len": "14",
+                    "tls.handshake.extensions_alpn_len": "12",
+                    "tls.handshake.extensions_alpn_list": {
+                    "tls.handshake.extensions_alpn_str_len": "2",
+                    "tls.handshake.extensions_alpn_str": "h2",
+                    "tls.handshake.extensions_alpn_str_len": "8",
+                    "tls.handshake.extensions_alpn_str": "http/1.1"
+                    }
+                },
+                "Extension: status_request (len=5)": {
+                    "tls.handshake.extension.type": "5",
+                    "tls.handshake.extension.len": "5",
+                    "tls.handshake.extensions_status_request_type": "1",
+                    "tls.handshake.extensions_status_request_responder_ids_len": "0",
+                    "tls.handshake.extensions_status_request_exts_len": "0"
+                },
+                "Extension: delegated_credentials (len=10)": {
+                    "tls.handshake.extension.type": "34",
+                    "tls.handshake.extension.len": "10",
+                    "tls.handshake.sig_hash_alg_len": "8",
+                    "tls.handshake.sig_hash_algs": {
+                    "tls.handshake.sig_hash_alg": "0x0403",
+                    "tls.handshake.sig_hash_alg_tree": {
+                        "tls.handshake.sig_hash_hash": "4",
+                        "tls.handshake.sig_hash_sig": "3"
+                    },
+                    "tls.handshake.sig_hash_alg": "0x0503",
+                    "tls.handshake.sig_hash_alg_tree": {
+                        "tls.handshake.sig_hash_hash": "5",
+                        "tls.handshake.sig_hash_sig": "3"
+                    },
+                    "tls.handshake.sig_hash_alg": "0x0603",
+                    "tls.handshake.sig_hash_alg_tree": {
+                        "tls.handshake.sig_hash_hash": "6",
+                        "tls.handshake.sig_hash_sig": "3"
+                    },
+                    "tls.handshake.sig_hash_alg": "0x0203",
+                    "tls.handshake.sig_hash_alg_tree": {
+                        "tls.handshake.sig_hash_hash": "2",
+                        "tls.handshake.sig_hash_sig": "3"
+                    }
+                    }
+                },
+                "Extension: key_share (len=107)": {
+                    "tls.handshake.extension.type": "51",
+                    "tls.handshake.extension.len": "107",
+                    "Key Share extension": {
+                    "tls.handshake.extensions_key_share_client_length": "105",
+                    "Key Share Entry: Group: x25519, Key Exchange length: 32": {
+                        "tls.handshake.extensions_key_share_group": "29",
+                        "tls.handshake.extensions_key_share_key_exchange_length": "32",
+                        "tls.handshake.extensions_key_share_key_exchange": "c2:2a:9b:16:06:e1:ac:8d:4d:7c:e1:2c:6b:9c:f1:25:2d:57:7e:98:0a:90:85:ac:59:97:4d:35:b3:c7:67:2a"
+                    },
+                    "Key Share Entry: Group: secp256r1, Key Exchange length: 65": {
+                        "tls.handshake.extensions_key_share_group": "23",
+                        "tls.handshake.extensions_key_share_key_exchange_length": "65",
+                        "tls.handshake.extensions_key_share_key_exchange": "04:7a:ba:75:fa:1c:81:9a:0f:37:fc:0c:92:f4:16:f6:d3:7b:0b:1b:ab:84:8e:66:1d:7a:8c:e9:ce:e0:64:a2:e4:d2:00:69:8c:04:61:da:82:9f:16:89:6e:a7:cd:66:18:57:d3:56:78:61:8e:18:ef:76:38:aa:7b:9f:6a:b6:13"
+                    }
+                    }
+                },
+                "Extension: supported_versions (len=5)": {
+                    "tls.handshake.extension.type": "43",
+                    "tls.handshake.extension.len": "5",
+                    "tls.handshake.extensions.supported_versions_len": "4",
+                    "tls.handshake.extensions.supported_version": "0x0304",
+                    "tls.handshake.extensions.supported_version": "0x0303"
+                },
+                "Extension: signature_algorithms (len=24)": {
+                    "tls.handshake.extension.type": "13",
+                    "tls.handshake.extension.len": "24",
+                    "tls.handshake.sig_hash_alg_len": "22",
+                    "tls.handshake.sig_hash_algs": {
+                    "tls.handshake.sig_hash_alg": "0x0403",
+                    "tls.handshake.sig_hash_alg_tree": {
+                        "tls.handshake.sig_hash_hash": "4",
+                        "tls.handshake.sig_hash_sig": "3"
+                    },
+                    "tls.handshake.sig_hash_alg": "0x0503",
+                    "tls.handshake.sig_hash_alg_tree": {
+                        "tls.handshake.sig_hash_hash": "5",
+                        "tls.handshake.sig_hash_sig": "3"
+                    },
+                    "tls.handshake.sig_hash_alg": "0x0603",
+                    "tls.handshake.sig_hash_alg_tree": {
+                        "tls.handshake.sig_hash_hash": "6",
+                        "tls.handshake.sig_hash_sig": "3"
+                    },
+                    "tls.handshake.sig_hash_alg": "0x0804",
+                    "tls.handshake.sig_hash_alg_tree": {
+                        "tls.handshake.sig_hash_hash": "8",
+                        "tls.handshake.sig_hash_sig": "4"
+                    },
+                    "tls.handshake.sig_hash_alg": "0x0805",
+                    "tls.handshake.sig_hash_alg_tree": {
+                        "tls.handshake.sig_hash_hash": "8",
+                        "tls.handshake.sig_hash_sig": "5"
+                    },
+                    "tls.handshake.sig_hash_alg": "0x0806",
+                    "tls.handshake.sig_hash_alg_tree": {
+                        "tls.handshake.sig_hash_hash": "8",
+                        "tls.handshake.sig_hash_sig": "6"
+                    },
+                    "tls.handshake.sig_hash_alg": "0x0401",
+                    "tls.handshake.sig_hash_alg_tree": {
+                        "tls.handshake.sig_hash_hash": "4",
+                        "tls.handshake.sig_hash_sig": "1"
+                    },
+                    "tls.handshake.sig_hash_alg": "0x0501",
+                    "tls.handshake.sig_hash_alg_tree": {
+                        "tls.handshake.sig_hash_hash": "5",
+                        "tls.handshake.sig_hash_sig": "1"
+                    },
+                    "tls.handshake.sig_hash_alg": "0x0601",
+                    "tls.handshake.sig_hash_alg_tree": {
+                        "tls.handshake.sig_hash_hash": "6",
+                        "tls.handshake.sig_hash_sig": "1"
+                    },
+                    "tls.handshake.sig_hash_alg": "0x0203",
+                    "tls.handshake.sig_hash_alg_tree": {
+                        "tls.handshake.sig_hash_hash": "2",
+                        "tls.handshake.sig_hash_sig": "3"
+                    },
+                    "tls.handshake.sig_hash_alg": "0x0201",
+                    "tls.handshake.sig_hash_alg_tree": {
+                        "tls.handshake.sig_hash_hash": "2",
+                        "tls.handshake.sig_hash_sig": "1"
+                    }
+                    }
+                },
+                "Extension: psk_key_exchange_modes (len=2)": {
+                    "tls.handshake.extension.type": "45",
+                    "tls.handshake.extension.len": "2",
+                    "tls.extension.psk_ke_modes_length": "1",
+                    "tls.extension.psk_ke_mode": "1"
+                },
+                "Extension: record_size_limit (len=2)": {
+                    "tls.handshake.extension.type": "28",
+                    "tls.handshake.extension.len": "2",
+                    "tls.record_size_limit": "16385"
+                },
+                "Extension: pre_shared_key (len=331)": {
+                    "tls.handshake.extension.type": "41",
+                    "tls.handshake.extension.len": "331",
+                    "Pre-Shared Key extension": {
+                    "tls.handshake.extensions.psk.identities.length": "278",
+                    "PSK Identity (length: 272)": {
+                        "tls.handshake.extensions.psk.identity.identity_length": "272",
+                        "tls.handshake.extensions.psk.identity.identity": "59:d0:e4:d7:3d:ea:4f:34:22:a7:c8:83:6f:7e:15:cd:bf:dd:82:ae:b4:8d:eb:83:31:7d:c9:8f:88:22:55:b8:62:74:72:20:c0:2e:70:66:4c:1e:21:fa:1f:e7:37:fd:b7:5a:79:41:fc:bd:ad:7c:ad:87:8b:9c:ec:b4:b2:5f:ec:83:80:af:35:75:35:98:8a:14:03:70:98:76:ac:ac:f9:cc:69:07:e4:a7:d3:54:8a:16:72:2e:4f:75:92:58:08:94:58:19:e4:e9:bc:17:f4:5e:09:03:8a:42:35:aa:e0:93:c6:2b:8a:49:56:fe:f9:0b:24:ed:95:f9:f2:6e:c7:f7:b3:94:0b:fc:43:c2:23:96:ae:77:a5:5f:6b:d0:35:1f:57:97:1b:11:d6:ee:2d:cd:81:d6:54:32:d0:20:8e:61:c4:b6:60:6c:bb:38:4b:65:dc:48:bb:f2:4f:d3:4e:a2:a3:37:96:88:e4:92:f0:24:6b:3c:7e:7e:60:ee:ab:f2:a7:c7:64:6f:12:ba:2a:cd:02:cc:16:a8:68:e4:e9:03:22:38:bc:71:7b:bb:6c:cc:99:40:c5:82:8e:a5:7c:1a:5c:03:76:71:be:36:35:60:12:9e:b0:a0:c3:cc:3b:a2:7b:b0:c1:41:57:fc:0f:2f:e2:67:9f:65:6e:53:3b:d6:a4:a1:a8:ed:e7:29:a1:25:fc:ee:59:f0:b0:87",
+                        "tls.handshake.extensions.psk.identity.obfuscated_ticket_age": "2722580211"
+                    },
+                    "tls.handshake.extensions.psk.binders_len": "49",
+                    "tls.handshake.extensions.psk.binders": ""
+                    }
+                },
+                "tls.handshake.ja3_full": "771,4865-4867-4866-49195-49199-52393-52392-49196-49200-49162-49161-49171-49172-156-157-47-53,0-23-65281-10-11-16-5-34-51-43-13-45-28-41,29-23-24-25-256-257,0",
+                "tls.handshake.ja3": "c279b0189edb9269da7bc43dea5e0c36"
+                }
+            }
+            }
+        }
+        }
+    }
+]   

@@ -1,0 +1,524 @@
+[
+    {
+        "_index": "packets-2023-02-16",
+        "_type": "doc",
+        "_score": null,
+        "_source": {
+            "layers": {
+                "frame": {
+                    "frame.section_number": "1",
+                    "frame.interface_id": "0",
+                    "frame.interface_id_tree": {
+                        "frame.interface_name": "en0",
+                        "frame.interface_description": "Wi-Fi"
+                    },
+                    "frame.encap_type": "1",
+                    "frame.time": "Feb 16, 2023 17:39:07.502586000 CST",
+                    "frame.offset_shift": "0.000000000",
+                    "frame.time_epoch": "1676590747.502586000",
+                    "frame.time_delta": "0.000017000",
+                    "frame.time_delta_displayed": "0.000017000",
+                    "frame.time_relative": "65.939368000",
+                    "frame.number": "74213",
+                    "frame.len": "66",
+                    "frame.cap_len": "66",
+                    "frame.marked": "0",
+                    "frame.ignored": "0",
+                    "frame.protocols": "eth:ethertype:ip:tcp"
+                },
+                "eth": {
+                    "eth.dst": "f0:18:98:55:ea:02",
+                    "eth.dst_tree": {
+                        "eth.dst_resolved": "Apple_55:ea:02",
+                        "eth.dst.oui": "15734936",
+                        "eth.dst.oui_resolved": "Apple, Inc.",
+                        "eth.addr": "f0:18:98:55:ea:02",
+                        "eth.addr_resolved": "Apple_55:ea:02",
+                        "eth.addr.oui": "15734936",
+                        "eth.addr.oui_resolved": "Apple, Inc.",
+                        "eth.dst.lg": "0",
+                        "eth.lg": "0",
+                        "eth.dst.ig": "0",
+                        "eth.ig": "0"
+                    },
+                    "eth.src": "f4:a7:39:d6:29:5d",
+                    "eth.src_tree": {
+                        "eth.src_resolved": "JuniperN_d6:29:5d",
+                        "eth.src.oui": "16033593",
+                        "eth.src.oui_resolved": "Juniper Networks",
+                        "eth.addr": "f4:a7:39:d6:29:5d",
+                        "eth.addr_resolved": "JuniperN_d6:29:5d",
+                        "eth.addr.oui": "16033593",
+                        "eth.addr.oui_resolved": "Juniper Networks",
+                        "eth.src.lg": "0",
+                        "eth.lg": "0",
+                        "eth.src.ig": "0",
+                        "eth.ig": "0"
+                    },
+                    "eth.type": "0x0800"
+                },
+                "ip": {
+                    "ip.version": "4",
+                    "ip.hdr_len": "20",
+                    "ip.dsfield": "0x00",
+                    "ip.dsfield_tree": {
+                        "ip.dsfield.dscp": "0",
+                        "ip.dsfield.ecn": "0"
+                    },
+                    "ip.len": "52",
+                    "ip.id": "0x4ab7",
+                    "ip.flags": "0x02",
+                    "ip.flags_tree": {
+                        "ip.flags.rb": "0",
+                        "ip.flags.df": "1",
+                        "ip.flags.mf": "0"
+                    },
+                    "ip.frag_offset": "0",
+                    "ip.ttl": "60",
+                    "ip.proto": "6",
+                    "ip.checksum": "0x21dc",
+                    "ip.checksum.status": "2",
+                    "ip.src": "128.135.11.239",
+                    "ip.addr": [
+                        "128.135.11.239",
+                        "10.150.59.37"
+                    ],
+                    "ip.src_host": "128.135.11.239",
+                    "ip.host": [
+                        "128.135.11.239",
+                        "10.150.59.37"
+                    ],
+                    "ip.dst": "10.150.59.37",
+                    "ip.dst_host": "10.150.59.37"
+                },
+                "tcp": {
+                    "tcp.srcport": "443",
+                    "tcp.dstport": "53809",
+                    "tcp.port": [
+                        "443",
+                        "53809"
+                    ],
+                    "tcp.stream": "209",
+                    "tcp.completeness": "31",
+                    "tcp.len": "0",
+                    "tcp.seq": "49309",
+                    "tcp.seq_raw": "3326373420",
+                    "tcp.nxtseq": "49310",
+                    "tcp.ack": "1270",
+                    "tcp.ack_raw": "2907620692",
+                    "tcp.hdr_len": "32",
+                    "tcp.flags": "0x0011",
+                    "tcp.flags_tree": {
+                        "tcp.flags.res": "0",
+                        "tcp.flags.ae": "0",
+                        "tcp.flags.cwr": "0",
+                        "tcp.flags.ece": "0",
+                        "tcp.flags.urg": "0",
+                        "tcp.flags.ack": "1",
+                        "tcp.flags.push": "0",
+                        "tcp.flags.reset": "0",
+                        "tcp.flags.syn": "0",
+                        "tcp.flags.fin": "1",
+                        "tcp.flags.fin_tree": {
+                            "_ws.expert": {
+                                "tcp.connection.fin": "",
+                                "_ws.expert.message": "Connection finish (FIN)",
+                                "_ws.expert.severity": "2097152",
+                                "_ws.expert.group": "33554432"
+                            }
+                        },
+                        "tcp.flags.str": "\u00b7\u00b7\u00b7\u00b7\u00b7\u00b7\u00b7A\u00b7\u00b7\u00b7F",
+                        "tcp.flags.str_tree": {
+                            "_ws.expert": {
+                                "tcp.connection.fin_active": "",
+                                "_ws.expert.message": "This frame initiates the connection closing",
+                                "_ws.expert.severity": "4194304",
+                                "_ws.expert.group": "33554432"
+                            }
+                        }
+                    },
+                    "tcp.window_size_value": "501",
+                    "tcp.window_size": "64128",
+                    "tcp.window_size_scalefactor": "128",
+                    "tcp.checksum": "0x38a5",
+                    "tcp.checksum.status": "2",
+                    "tcp.urgent_pointer": "0",
+                    "tcp.options": "01:01:08:0a:cc:a2:c6:9d:23:e1:37:ce",
+                    "tcp.options_tree": {
+                        "tcp.options.nop": [
+                            "01",
+                            "01"
+                        ],
+                        "tcp.options.nop_tree": [
+                            {
+                                "tcp.option_kind": "1"
+                            },
+                            {
+                                "tcp.option_kind": "1"
+                            }
+                        ],
+                        "tcp.options.timestamp": "08:0a:cc:a2:c6:9d:23:e1:37:ce",
+                        "tcp.options.timestamp_tree": {
+                            "tcp.option_kind": "8",
+                            "tcp.option_len": "10",
+                            "tcp.options.timestamp.tsval": "3433219741",
+                            "tcp.options.timestamp.tsecr": "601962446"
+                        }
+                    },
+                    "Timestamps": {
+                        "tcp.time_relative": "5.025348000",
+                        "tcp.time_delta": "0.000017000"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "_index": "packets-2023-02-16",
+        "_type": "doc",
+        "_score": null,
+        "_source": {
+            "layers": {
+                "frame": {
+                    "frame.section_number": "1",
+                    "frame.interface_id": "0",
+                    "frame.interface_id_tree": {
+                        "frame.interface_name": "en0",
+                        "frame.interface_description": "Wi-Fi"
+                    },
+                    "frame.encap_type": "1",
+                    "frame.time": "Feb 16, 2023 17:39:07.506100000 CST",
+                    "frame.offset_shift": "0.000000000",
+                    "frame.time_epoch": "1676590747.506100000",
+                    "frame.time_delta": "0.000016000",
+                    "frame.time_delta_displayed": "0.000016000",
+                    "frame.time_relative": "65.942882000",
+                    "frame.number": "74219",
+                    "frame.len": "66",
+                    "frame.cap_len": "66",
+                    "frame.marked": "0",
+                    "frame.ignored": "0",
+                    "frame.protocols": "eth:ethertype:ip:tcp"
+                },
+                "eth": {
+                    "eth.dst": "f0:18:98:55:ea:02",
+                    "eth.dst_tree": {
+                        "eth.dst_resolved": "Apple_55:ea:02",
+                        "eth.dst.oui": "15734936",
+                        "eth.dst.oui_resolved": "Apple, Inc.",
+                        "eth.addr": "f0:18:98:55:ea:02",
+                        "eth.addr_resolved": "Apple_55:ea:02",
+                        "eth.addr.oui": "15734936",
+                        "eth.addr.oui_resolved": "Apple, Inc.",
+                        "eth.dst.lg": "0",
+                        "eth.lg": "0",
+                        "eth.dst.ig": "0",
+                        "eth.ig": "0"
+                    },
+                    "eth.src": "f4:a7:39:d6:29:5d",
+                    "eth.src_tree": {
+                        "eth.src_resolved": "JuniperN_d6:29:5d",
+                        "eth.src.oui": "16033593",
+                        "eth.src.oui_resolved": "Juniper Networks",
+                        "eth.addr": "f4:a7:39:d6:29:5d",
+                        "eth.addr_resolved": "JuniperN_d6:29:5d",
+                        "eth.addr.oui": "16033593",
+                        "eth.addr.oui_resolved": "Juniper Networks",
+                        "eth.src.lg": "0",
+                        "eth.lg": "0",
+                        "eth.src.ig": "0",
+                        "eth.ig": "0"
+                    },
+                    "eth.type": "0x0800"
+                },
+                "ip": {
+                    "ip.version": "4",
+                    "ip.hdr_len": "20",
+                    "ip.dsfield": "0x00",
+                    "ip.dsfield_tree": {
+                        "ip.dsfield.dscp": "0",
+                        "ip.dsfield.ecn": "0"
+                    },
+                    "ip.len": "52",
+                    "ip.id": "0xea5b",
+                    "ip.flags": "0x02",
+                    "ip.flags_tree": {
+                        "ip.flags.rb": "0",
+                        "ip.flags.df": "1",
+                        "ip.flags.mf": "0"
+                    },
+                    "ip.frag_offset": "0",
+                    "ip.ttl": "60",
+                    "ip.proto": "6",
+                    "ip.checksum": "0x8237",
+                    "ip.checksum.status": "2",
+                    "ip.src": "128.135.11.239",
+                    "ip.addr": [
+                        "128.135.11.239",
+                        "10.150.59.37"
+                    ],
+                    "ip.src_host": "128.135.11.239",
+                    "ip.host": [
+                        "128.135.11.239",
+                        "10.150.59.37"
+                    ],
+                    "ip.dst": "10.150.59.37",
+                    "ip.dst_host": "10.150.59.37"
+                },
+                "tcp": {
+                    "tcp.srcport": "443",
+                    "tcp.dstport": "53808",
+                    "tcp.port": [
+                        "443",
+                        "53808"
+                    ],
+                    "tcp.stream": "208",
+                    "tcp.completeness": "31",
+                    "tcp.len": "0",
+                    "tcp.seq": "1131",
+                    "tcp.seq_raw": "48494107",
+                    "tcp.nxtseq": "1132",
+                    "tcp.ack": "1248",
+                    "tcp.ack_raw": "843491592",
+                    "tcp.hdr_len": "32",
+                    "tcp.flags": "0x0011",
+                    "tcp.flags_tree": {
+                        "tcp.flags.res": "0",
+                        "tcp.flags.ae": "0",
+                        "tcp.flags.cwr": "0",
+                        "tcp.flags.ece": "0",
+                        "tcp.flags.urg": "0",
+                        "tcp.flags.ack": "1",
+                        "tcp.flags.push": "0",
+                        "tcp.flags.reset": "0",
+                        "tcp.flags.syn": "0",
+                        "tcp.flags.fin": "1",
+                        "tcp.flags.fin_tree": {
+                            "_ws.expert": {
+                                "tcp.connection.fin": "",
+                                "_ws.expert.message": "Connection finish (FIN)",
+                                "_ws.expert.severity": "2097152",
+                                "_ws.expert.group": "33554432"
+                            }
+                        },
+                        "tcp.flags.str": "\u00b7\u00b7\u00b7\u00b7\u00b7\u00b7\u00b7A\u00b7\u00b7\u00b7F",
+                        "tcp.flags.str_tree": {
+                            "_ws.expert": {
+                                "tcp.connection.fin_active": "",
+                                "_ws.expert.message": "This frame initiates the connection closing",
+                                "_ws.expert.severity": "4194304",
+                                "_ws.expert.group": "33554432"
+                            }
+                        }
+                    },
+                    "tcp.window_size_value": "501",
+                    "tcp.window_size": "64128",
+                    "tcp.window_size_scalefactor": "128",
+                    "tcp.checksum": "0x0b6d",
+                    "tcp.checksum.status": "2",
+                    "tcp.urgent_pointer": "0",
+                    "tcp.options": "01:01:08:0a:cc:a2:c6:a1:23:e1:37:ca",
+                    "tcp.options_tree": {
+                        "tcp.options.nop": [
+                            "01",
+                            "01"
+                        ],
+                        "tcp.options.nop_tree": [
+                            {
+                                "tcp.option_kind": "1"
+                            },
+                            {
+                                "tcp.option_kind": "1"
+                            }
+                        ],
+                        "tcp.options.timestamp": "08:0a:cc:a2:c6:a1:23:e1:37:ca",
+                        "tcp.options.timestamp_tree": {
+                            "tcp.option_kind": "8",
+                            "tcp.option_len": "10",
+                            "tcp.options.timestamp.tsval": "3433219745",
+                            "tcp.options.timestamp.tsecr": "601962442"
+                        }
+                    },
+                    "Timestamps": {
+                        "tcp.time_relative": "5.029231000",
+                        "tcp.time_delta": "0.000016000"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "_index": "packets-2023-02-16",
+        "_type": "doc",
+        "_score": null,
+        "_source": {
+            "layers": {
+                "frame": {
+                    "frame.section_number": "1",
+                    "frame.interface_id": "0",
+                    "frame.interface_id_tree": {
+                        "frame.interface_name": "en0",
+                        "frame.interface_description": "Wi-Fi"
+                    },
+                    "frame.encap_type": "1",
+                    "frame.time": "Feb 16, 2023 17:39:07.518429000 CST",
+                    "frame.offset_shift": "0.000000000",
+                    "frame.time_epoch": "1676590747.518429000",
+                    "frame.time_delta": "0.000018000",
+                    "frame.time_delta_displayed": "0.000018000",
+                    "frame.time_relative": "65.955211000",
+                    "frame.number": "74229",
+                    "frame.len": "66",
+                    "frame.cap_len": "66",
+                    "frame.marked": "0",
+                    "frame.ignored": "0",
+                    "frame.protocols": "eth:ethertype:ip:tcp"
+                },
+                "eth": {
+                    "eth.dst": "f0:18:98:55:ea:02",
+                    "eth.dst_tree": {
+                        "eth.dst_resolved": "Apple_55:ea:02",
+                        "eth.dst.oui": "15734936",
+                        "eth.dst.oui_resolved": "Apple, Inc.",
+                        "eth.addr": "f0:18:98:55:ea:02",
+                        "eth.addr_resolved": "Apple_55:ea:02",
+                        "eth.addr.oui": "15734936",
+                        "eth.addr.oui_resolved": "Apple, Inc.",
+                        "eth.dst.lg": "0",
+                        "eth.lg": "0",
+                        "eth.dst.ig": "0",
+                        "eth.ig": "0"
+                    },
+                    "eth.src": "f4:a7:39:d6:29:5d",
+                    "eth.src_tree": {
+                        "eth.src_resolved": "JuniperN_d6:29:5d",
+                        "eth.src.oui": "16033593",
+                        "eth.src.oui_resolved": "Juniper Networks",
+                        "eth.addr": "f4:a7:39:d6:29:5d",
+                        "eth.addr_resolved": "JuniperN_d6:29:5d",
+                        "eth.addr.oui": "16033593",
+                        "eth.addr.oui_resolved": "Juniper Networks",
+                        "eth.src.lg": "0",
+                        "eth.lg": "0",
+                        "eth.src.ig": "0",
+                        "eth.ig": "0"
+                    },
+                    "eth.type": "0x0800"
+                },
+                "ip": {
+                    "ip.version": "4",
+                    "ip.hdr_len": "20",
+                    "ip.dsfield": "0x00",
+                    "ip.dsfield_tree": {
+                        "ip.dsfield.dscp": "0",
+                        "ip.dsfield.ecn": "0"
+                    },
+                    "ip.len": "52",
+                    "ip.id": "0xf76c",
+                    "ip.flags": "0x02",
+                    "ip.flags_tree": {
+                        "ip.flags.rb": "0",
+                        "ip.flags.df": "1",
+                        "ip.flags.mf": "0"
+                    },
+                    "ip.frag_offset": "0",
+                    "ip.ttl": "60",
+                    "ip.proto": "6",
+                    "ip.checksum": "0x7526",
+                    "ip.checksum.status": "2",
+                    "ip.src": "128.135.11.239",
+                    "ip.addr": [
+                        "128.135.11.239",
+                        "10.150.59.37"
+                    ],
+                    "ip.src_host": "128.135.11.239",
+                    "ip.host": [
+                        "128.135.11.239",
+                        "10.150.59.37"
+                    ],
+                    "ip.dst": "10.150.59.37",
+                    "ip.dst_host": "10.150.59.37"
+                },
+                "tcp": {
+                    "tcp.srcport": "443",
+                    "tcp.dstport": "53804",
+                    "tcp.port": [
+                        "443",
+                        "53804"
+                    ],
+                    "tcp.stream": "204",
+                    "tcp.completeness": "31",
+                    "tcp.len": "0",
+                    "tcp.seq": "126748",
+                    "tcp.seq_raw": "2022155890",
+                    "tcp.nxtseq": "126749",
+                    "tcp.ack": "2030",
+                    "tcp.ack_raw": "4193578260",
+                    "tcp.hdr_len": "32",
+                    "tcp.flags": "0x0011",
+                    "tcp.flags_tree": {
+                        "tcp.flags.res": "0",
+                        "tcp.flags.ae": "0",
+                        "tcp.flags.cwr": "0",
+                        "tcp.flags.ece": "0",
+                        "tcp.flags.urg": "0",
+                        "tcp.flags.ack": "1",
+                        "tcp.flags.push": "0",
+                        "tcp.flags.reset": "0",
+                        "tcp.flags.syn": "0",
+                        "tcp.flags.fin": "1",
+                        "tcp.flags.fin_tree": {
+                            "_ws.expert": {
+                                "tcp.connection.fin": "",
+                                "_ws.expert.message": "Connection finish (FIN)",
+                                "_ws.expert.severity": "2097152",
+                                "_ws.expert.group": "33554432"
+                            }
+                        },
+                        "tcp.flags.str": "\u00b7\u00b7\u00b7\u00b7\u00b7\u00b7\u00b7A\u00b7\u00b7\u00b7F",
+                        "tcp.flags.str_tree": {
+                            "_ws.expert": {
+                                "tcp.connection.fin_active": "",
+                                "_ws.expert.message": "This frame initiates the connection closing",
+                                "_ws.expert.severity": "4194304",
+                                "_ws.expert.group": "33554432"
+                            }
+                        }
+                    },
+                    "tcp.window_size_value": "501",
+                    "tcp.window_size": "64128",
+                    "tcp.window_size_scalefactor": "128",
+                    "tcp.checksum": "0xd9a4",
+                    "tcp.checksum.status": "2",
+                    "tcp.urgent_pointer": "0",
+                    "tcp.options": "01:01:08:0a:cc:a2:c6:ad:23:e1:37:d4",
+                    "tcp.options_tree": {
+                        "tcp.options.nop": [
+                            "01",
+                            "01"
+                        ],
+                        "tcp.options.nop_tree": [
+                            {
+                                "tcp.option_kind": "1"
+                            },
+                            {
+                                "tcp.option_kind": "1"
+                            }
+                        ],
+                        "tcp.options.timestamp": "08:0a:cc:a2:c6:ad:23:e1:37:d4",
+                        "tcp.options.timestamp_tree": {
+                            "tcp.option_kind": "8",
+                            "tcp.option_len": "10",
+                            "tcp.options.timestamp.tsval": "3433219757",
+                            "tcp.options.timestamp.tsecr": "601962452"
+                        }
+                    },
+                    "Timestamps": {
+                        "tcp.time_relative": "5.175632000",
+                        "tcp.time_delta": "0.000018000"
+                    }
+                }
+            }
+        }
+    }
+]
